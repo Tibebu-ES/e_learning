@@ -1,3 +1,6 @@
+[![php](https://img.shields.io/badge/php-7.3.x-brightgreen.svg?logo=php)](https://www.php.net)
+[![laravel](https://img.shields.io/badge/laravel-7.16.x-orange.svg?logo=laravel)](https://laravel.com)
+
 ![plot](./public/img/core-img/stu-logo-w.png)
 
 ## E-Learning Portal
