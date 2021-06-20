@@ -1,4 +1,4 @@
-![plot](./public/img/core-img/stu-logo.png)
+![plot](./public/img/core-img/stu-logo-w.png)
 
 ## E-Learning Portal
 
