@@ -8,7 +8,7 @@
 
     <link type="text/css" rel="stylesheet" href="css/home/styles/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="css/home/styles/bootstrap4/bootstrap.min.css">
-    <link href="css/home//fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/home/fontawesome-free-5.0.1/css/fontawesome-all.css">
     <link rel="stylesheet" type="text/css" href="css/home/OwlCarousel2-2.2.1/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/home/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="css/home/OwlCarousel2-2.2.1/animate.css">
@@ -111,7 +111,7 @@
 
                 <!-- Hero Slide -->
                 <div class="hero_slide">
-                    <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
+                    <div class="hero_slide_background" style='background-image:url(img/admin/slider_background.jpg)'></div>
                     <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
                         <div class="hero_slide_content text-center">
                             <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span>

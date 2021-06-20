@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="main" style='background-image: url("images/background.jpg"); background-repeat: no-repeat; background-size: cover'>
+<div class="main" style='background-image: url("img/admin/background.jpg"); background-repeat: no-repeat; background-size: cover'>
 
     @yield('auth_content')
 
