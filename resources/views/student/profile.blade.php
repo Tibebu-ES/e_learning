@@ -77,7 +77,7 @@
                                         </div><!-- /.card-header -->
                                         <div class="card-body">
                                             <div class="tab-content">
-                                                <div class="active tab-pane" id="activity"
+                                                <div class="active tab-pane pb-4" id="activity"
                                                      style="max-height: 340px; overflow-y: auto;">
                                                     @livewire('stu-topic-comment')
                                                 </div>
