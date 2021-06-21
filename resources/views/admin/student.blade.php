@@ -73,10 +73,7 @@
                             <h3 class="card-title">Student List</h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                    <i class="fas fa-minus"></i>
-                                </button>
-                                <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                    <i class="fas fa-times"></i>
+                                    <i class="fa fa-minus"></i>
                                 </button>
                             </div>
                         </div>
