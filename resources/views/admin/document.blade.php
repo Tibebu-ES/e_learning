@@ -76,7 +76,7 @@
                         <div class="card-tools">
                             <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip"
                                     title="Collapse">
-                                <i class="fas fa-minus"></i></button>
+                                <i class="fa fa-minus"></i></button>
                         </div>
                     </div>
                     <div class="card-body bg-gray-light">
@@ -85,7 +85,7 @@
                               enctype="multipart/form-data">
                             @csrf
 
-                            <livewire:class-content/>
+                            @livewire('class-content')
 
                         </form>
 

@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" xmlns:wire="http://www.w3.org/1999/xhtml">
 
     <div class="col-md-4">
         <div class="card card-info">
@@ -6,9 +6,6 @@
                 <h3 class="card-title">Files</h3>
 
                 <div class="card-tools">
-                    <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip"
-                            title="Collapse"><i class="fas fa-minus"></i>
-                    </button>
                 </div>
             </div>
             <div class="card-body p-0">
