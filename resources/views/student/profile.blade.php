@@ -41,7 +41,7 @@
                                         <div class="card-body box-profile">
                                             <div class="text-center pb-3">
                                                 <img class="profile-user-img img-fluid img-circle"
-                                                     src="../images/stud-icon.png"
+                                                     src="../img/student/stud-icon.png"
                                                      alt="User profile picture">
                                             </div>
 
