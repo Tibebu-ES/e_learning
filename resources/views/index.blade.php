@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link type="text/css" rel="stylesheet" href="css/home/styles/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" type="text/css" href="css/home/styles/bootstrap4/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/home/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="css/home/bootstrap4/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/home/fontawesome-free-5.0.1/css/fontawesome-all.css">
     <link rel="stylesheet" type="text/css" href="css/home/OwlCarousel2-2.2.1/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/home/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="css/home/OwlCarousel2-2.2.1/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/home/styles/main_styles.css">
-    <link rel="stylesheet" type="text/css" href="css/home/styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/home/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/home/responsive.css">
 
 
 </head>
@@ -29,7 +29,7 @@
             <!-- Logo -->
             <div class="logo_container">
                 <div class="logo">
-                    <img src="../../../img/core-img/stu-logo.png" alt="Logo">
+                    <img src="img/core-img/stu-logo.png" alt="Logo">
                 </div>
             </div>
 
@@ -45,7 +45,7 @@
             </nav>
         </div>
         <div class="header_side d-flex flex-row justify-content-center align-items-center">
-            <img src="images/phone-call.svg" alt="">
+            <img src="img/home/phone-call.svg" alt="">
             <span class="font-bold">+251 993 632542</span>
         </div>
 
@@ -100,7 +100,7 @@
 
                 <!-- Hero Slide -->
                 <div class="hero_slide">
-                    <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
+                    <div class="hero_slide_background" style="background-image:url(img/home/slider_background.jpg)"></div>
                     <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
                         <div class="hero_slide_content text-center">
                             <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span>
@@ -111,7 +111,7 @@
 
                 <!-- Hero Slide -->
                 <div class="hero_slide">
-                    <div class="hero_slide_background" style='background-image:url(img/admin/slider_background.jpg)'></div>
+                    <div class="hero_slide_background" style='background-image:url(img/home/slider_background.jpg)'></div>
                     <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
                         <div class="hero_slide_content text-center">
                             <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span>
@@ -122,7 +122,7 @@
 
                 <!-- Hero Slide -->
                 <div class="hero_slide">
-                    <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
+                    <div class="hero_slide_background" style="background-image:url(img/home/slider_background.jpg)"></div>
                     <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
                         <div class="hero_slide_content text-center">
                             <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span>
@@ -147,7 +147,7 @@
 
                     <div class="col-lg-4 hero_box_col">
                         <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-                            <img src="images/earth-globe.svg" class="svg" alt="">
+                            <img src="img/home/earth-globe.svg" class="svg" alt="">
                             <div class="hero_box_content">
                                 <h2 class="hero_box_title">Online Courses</h2>
                                 <a href="{{ url('/login') }}" class="hero_box_link">view more</a>
@@ -157,7 +157,7 @@
 
                     <div class="col-lg-4 hero_box_col">
                         <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-                            <img src="images/books.svg" class="svg" alt="">
+                            <img src="img/home/books.svg" class="svg" alt="">
                             <div class="hero_box_content">
                                 <h2 class="hero_box_title">Our Classrooms</h2>
                                 <a href="{{ url('/login') }}" class="hero_box_link">view more</a>
@@ -167,7 +167,7 @@
 
                     <div class="col-lg-4 hero_box_col">
                         <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-                            <img src="images/professor.svg" class="svg" alt="">
+                            <img src="img/home/professor.svg" class="svg" alt="">
                             <div class="hero_box_content">
                                 <h2 class="hero_box_title">Our Teachers</h2>
                                 <a href="{{ url('/login') }}" class="hero_box_link">view more</a>
@@ -196,30 +196,30 @@
 
                 <div class="col-lg-4 course_box">
                     <div class="card">
-                        <img class="card-img-top" src="images/course_1.jpg" alt="">
+                        <img class="card-img-top" src="img/home/course_1.jpg" alt="">
                         <div class="card-body text-center">
                             <div class="card-title"><a href="{{ url('/login') }}">A complete guide to Accounting</a></div>
-                            <div class="card-text">Beginner, Basic, Professional etc...</div>
+                            <div class="card-text p-2">Beginner, Basic, Professional etc...</div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 course_box">
                     <div class="card">
-                        <img class="card-img-top" src="images/course_2.jpg" alt="">
+                        <img class="card-img-top" src="img/home/course_2.jpg" alt="">
                         <div class="card-body text-center">
                             <div class="card-title"><a href="{{ url('/login') }}">Beginners guide to Hotel</a></div>
-                            <div class="card-text">Guide, Communication, Reception etc...</div>
+                            <div class="card-text p-2">Guide, Communication, Reception etc...</div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 course_box">
                     <div class="card">
-                        <img class="card-img-top" src="images/course_3.jpg" alt="">
+                        <img class="card-img-top" src="img/home/course_3.jpg" alt="">
                         <div class="card-body text-center">
                             <div class="card-title"><a href="{{ url('/login') }}">Advanced English</a></div>
-                            <div class="card-text">A1, A2, B2 etc...</div>
+                            <div class="card-text p-2">A1, A2, B2 etc...</div>
                         </div>
                     </div>
                 </div>
@@ -308,7 +308,7 @@
     <div class="testimonials page_section">
         <div class="testimonials_background_container prlx_parent">
             <div class="testimonials_background prlx"
-                 style="background-image:url(images/testimonials_background.jpg)"></div>
+                 style="background-image:url(img/home/testimonials_background.jpg)"></div>
         </div>
         <div class="container">
 
@@ -337,7 +337,7 @@
                                         class such as private class, group class and provide chat-based communication while learning.</p>
                                     <div class="testimonial_user">
                                         <div class="testimonial_image mx-auto">
-                                            <img src="images/testimonials_user.jpg" alt="">
+                                            <img src="img/home/testimonials_user.jpg" alt="">
                                         </div>
                                         <div class="testimonial_name">Mr. First Last</div>
                                         <div class="testimonial_title">A1 Student</div>
@@ -354,7 +354,7 @@
                                         class such as private class, group class and provide chat-based communication while learning.</p>
                                     <div class="testimonial_user">
                                         <div class="testimonial_image mx-auto">
-                                            <img src="images/testimonials_user.jpg" alt="">
+                                            <img src="img/home/testimonials_user.jpg" alt="">
                                         </div>
                                         <div class="testimonial_name">Mr. First Last</div>
                                         <div class="testimonial_title">B3 Student</div>
@@ -371,7 +371,7 @@
                                         class such as private class, group class and provide chat-based communication while learning.</p>
                                     <div class="testimonial_user">
                                         <div class="testimonial_image mx-auto">
-                                            <img src="images/testimonials_user.jpg" alt="">
+                                            <img src="img/home/testimonials_user.jpg" alt="">
                                         </div>
                                         <div class="testimonial_name">Mr. First Last</div>
                                         <div class="testimonial_title">C3 Student</div>
@@ -401,7 +401,7 @@
                         <!-- Logo -->
                         <div class="logo_container">
                             <div class="logo">
-                                <img src="../../../img/core-img/stu-logo-w.png" alt="Logo">
+                                <img src="img/core-img/stu-logo-w.png" alt="Logo">
                             </div>
                         </div>
 
@@ -489,20 +489,19 @@
         </ul>
     </div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="styles/bootstrap4/popper.js"></script>
-    <script src="styles/bootstrap4/bootstrap.min.js"></script>
-    <script src="plugins/greensock/TweenMax.min.js"></script>
-    <script src="plugins/greensock/TimelineMax.min.js"></script>
-    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-    <script src="plugins/greensock/animation.gsap.min.js"></script>
-    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-    <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
-    <script src="plugins/easing/easing.js"></script>
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/home/popper.min.js"></script>
+    <script src="js/greensock/TweenMax.min.js"></script>
+    <script src="js/greensock/TimelineMax.min.js"></script>
+    <script src="js/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="js/greensock/animation.gsap.min.js"></script>
+    <script src="js/greensock/ScrollToPlugin.min.js"></script>
+    <script src="js/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="js/scrollTo/jquery.scrollTo.min.js"></script>
+    <script src="js/easing/easing.js"></script>
     <script src="js/home/custom.js"></script>
-
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/home/materialize.min.js"></script>
 
     <script>
 

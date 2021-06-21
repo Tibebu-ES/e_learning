@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>404 - Error</title>
-    
+
     <link rel="stylesheet" type="text/css" href="css/home/styles/bootstrap4/bootstrap.min.css">
 
     <style>
@@ -18,7 +17,7 @@
 
 <body>
 
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -41,8 +40,8 @@
     </div>
 
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="styles/bootstrap4/popper.js"></script>
-    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="js/bootstrap4/popper.js"></script>
+    <script src="js/bootstrap4/bootstrap.min.js"></script>
 </body>
 </html>
 
