@@ -6,25 +6,22 @@
     <title>Admin | Dashboard</title>
 
 
-    <script src="../../../plugins1/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
-
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{{ asset('css/admin/adminlte.min.css') }}">
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="../../plugins1/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="{{ asset('fonts/font-awesome.min.css') }}">
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="../../plugins1/overlayScrollbars/css/OverlayScrollbars.min.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="../.../../dist/css/adminlte.min.css">
 
     <link rel="stylesheet" href="../../plugins1/summernote/summernote-bs4.min.css">
 
     <link rel="stylesheet" href="../../plugins1/datatables-bs4/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="../../plugins1/datatables-responsive/css/responsive.bootstrap4.min.css">
 
-    <link rel="stylesheet" href="{{ asset("../../../css/elearning.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/elearning.css") }}">
 
     @livewireStyles
 
@@ -38,7 +35,7 @@
         <!-- Left navbar links -->
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fa fa-bars"></i></a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
                 <a href="{{ route('admin.dashboard') }}" class="nav-link active"><strong>Home - {{ $current }} </strong></a>
@@ -50,7 +47,7 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link" data-toggle="dropdown" href="#">
-                    <i class="far fa-bell"></i>
+                    <i class="fa fa-bell"></i>
                     @if(auth()->user()->unreadNotifications()->count() != 0)
                         <span
                             class="badge badge-warning navbar-badge">{{ auth()->user()->unreadNotifications()->count()  }}</span>
@@ -122,7 +119,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
 
         <a href="{{ route('admin.dashboard') }}" class="brand-link">
-            <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+            <img src="{{ asset('img/core-img/stu-logo-w.png') }}" alt="Dagi E-learning Logo" class="brand-image img-circle elevation-3"
                  style="opacity: .8">
             <span class="brand-text font-weight-light">E-Learning Admin</span>
         </a>
@@ -132,7 +129,7 @@
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
-                    <img src="../../dist/img/icons-admin.png" class="img-circle elevation-2" alt="User Image">
+                    <img src="{{ asset('img/admin/admin-icon.png') }}" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
                     <a href="#" class="d-block">{{ Auth::user()->name }}</a>
@@ -169,20 +166,23 @@
 
 @livewireScripts
 
+<script src="{{ asset('js/jquery/jquery.js') }}"></script>
+<script src="{{ asset('js/bootstrap/bootstrap.bundle.js') }}"></script>
+<script src="{{ asset('js/admin/adminlte.js') }}"></script>
+<script src="{{ asset('js/summernote/summernote.min.js') }}"></script>
+<script src="{{ asset('js/datatables/jquery.dataTables.min.js') }}"></script>
 
-<!-- Bootstrap -->
-<script src="../plugins1/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- overlayScrollbars -->
-<script src="../plugins1/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+{{--<script src="../plugins1/bootstrap/js/bootstrap.bundle.min.js"></script>--}}
+{{--<!-- overlayScrollbars -->--}}
+{{--<script src="../plugins1/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>--}}
 <!-- AdminLTE App -->
-<script src="../../dist/js/adminlte.js"></script>
-<script src="../../dist/js/demo.js"></script>
-<script src="../../plugins1/sum
-mernote/summernote-bs4.min.js"></script>
-<script src="../../plugins1/datatables/jquery.dataTables.min.js"></script>
-<script src="../../plugins1/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-<script src="../../plugins1/datatables-responsive/js/dataTables.responsive.min.js"></script>
-<script src="../../plugins1/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+{{--<script src="../../dist/js/adminlte.js"></script>--}}
+{{--<script src="../../dist/js/demo.js"></script>--}}
+{{--<script src="../../plugins1/summernote/summernote-bs4.min.js"></script>--}}
+{{--<script src="../../plugins1/datatables/jquery.dataTables.min.js"></script>--}}
+{{--<script src="../../plugins1/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>--}}
+{{--<script src="../../plugins1/datatables-responsive/js/dataTables.responsive.min.js"></script>--}}
+{{--<script src="../../plugins1/datatables-responsive/js/responsive.bootstrap4.min.js"></script>--}}
 
 
 <script>

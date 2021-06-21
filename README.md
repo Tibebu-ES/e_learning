@@ -33,10 +33,10 @@ E-learning, also referred to as online learning or electronic learning, is the a
     - **Virtual Classroom**
     - **Notification Center**
     
-![alt text](./project_snip/s1.PNG)
-![alt text](./project_snip/s2.PNG)
-![alt text](./project_snip/s3.PNG)
-![alt text](./project_snip/s4.PNG)
+![alt text](snip/s1.PNG)
+![alt text](snip/s2.PNG)
+![alt text](snip/s3.PNG)
+![alt text](snip/s4.PNG)
 
 ## Contributing
 

@@ -12,25 +12,25 @@
             </li>
             <li class="nav-item">
                 <a href="{{ route('admin.student') }}" class="nav-link">
-                    <i class="nav-icon fas fa-th"></i>
+                    <i class="nav-icon fa fa-user"></i>
                     <p>Students</p>
                 </a>
             </li>
             <li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-copy"></i>
-                    <p>Courses<i class="fas fa-angle-left right"></i></p>
+                    <i class="nav-icon fa fa-copy"></i>
+                    <p>Courses<i class="fa fa-angle-left right"></i></p>
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="{{ route('admin.standard') }}" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
+                            <i class="fa fa-circle nav-icon"></i>
                             <p>Standard</p>
                         </a>
                     </li>
                     <li class="nat-item">
                         <a href="{{ route('admin.eps') }}" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
+                            <i class="fa fa-circle nav-icon"></i>
                             <p>EPS</p>
                         </a>
                     </li>
@@ -38,25 +38,25 @@
             </li>
             <li class="nav-item has-treeview">
                 <a href="{{ route('admin.teachers') }}" class="nav-link">
-                    <i class="nav-icon fas fa-pen"></i>
+                    <i class="nav-icon fa fa-pencil"></i>
                     <p>Teachers</p>
                 </a>
             </li>
             <li class="nav-item has-treeview">
                 <a href="{{ route('admin.document') }}" class="nav-link">
-                    <i class="nav-icon fas fa-chart-pie"></i>
+                    <i class="nav-icon fa fa-files-o"></i>
                     <p>Documents</p>
                 </a>
             </li>
             <li class="nav-item has-treeview">
                 <a href="{{ route('admin.discussion')}}" class="nav-link">
-                    <i class="nav-icon fas fa-edit"></i>
+                    <i class="nav-icon fa fa-edit"></i>
                     <p>Forums</p>
                 </a>
             </li>
             <li class="nav-item has-treeview">
                 <a href="{{ route('admin.classroom')}}" class="nav-link">
-                    <i class="nav-icon fas fa-microphone"></i>
+                    <i class="nav-icon fa fa-microphone"></i>
                     <p>Class Room</p>
                 </a>
             </li>
@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box">
-                        <span class="info-box-icon bg-info elevation-1"><i class="fas fa-cog"></i></span>
+                        <span class="info-box-icon bg-info elevation-1"><i class="fa fa-user-circle"></i></span>
 
                         <div class="info-box-content">
                             <span class="info-box-text">Students</span>
@@ -84,7 +84,7 @@
                 <!-- /.col -->
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box mb-3">
-                        <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
+                        <span class="info-box-icon bg-danger elevation-1"><i class="fa fa-address-book"></i></span>
 
                         <div class="info-box-content">
                             <span class="info-box-text">Programs</span>
@@ -101,7 +101,7 @@
 
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box mb-3">
-                        <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="info-box-icon bg-success elevation-1"><i class="fa fa-users"></i></span>
 
                         <div class="info-box-content">
                             <span class="info-box-text">Teachers</span>
@@ -114,7 +114,7 @@
                 <!-- /.col -->
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box mb-3">
-                        <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
+                        <span class="info-box-icon bg-warning elevation-1"><i class="fa fa-pencil-square"></i></span>
 
                         <div class="info-box-content">
                             <span class="info-box-text">Discussions</span>
@@ -139,10 +139,7 @@
 
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
-                                        class="fas fa-minus"></i>
-                                </button>
-                                <button type="button" class="btn btn-tool" data-card-widget="remove"><i
-                                        class="fas fa-times"></i>
+                                        class="fa fa-minus"></i>
                                 </button>
                             </div>
                         </div>
@@ -151,8 +148,8 @@
                             <ul class="users-list clearfix">
                                 @forelse($latest_stu as $stu)
                                     <li>
-                                        <img src="/../dist/img/icons-learn.png" alt="User Image">
-                                        <a class="users-list-name" href="#">{{ $stu->name }}</a>
+                                        <img src="{{ asset('img/admin/icon-learn.png') }}" alt="User Image">
+                                        <a class="users-list-name font-weight-bolder" href="#">{{ $stu->name }}</a>
                                         <span class="users-list-date">{{ $stu->created_at->diffForHumans() }}</span>
                                     </li>
                                 @empty
@@ -181,10 +178,7 @@
 
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                    <i class="fas fa-minus"></i>
-                                </button>
-                                <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                    <i class="fas fa-times"></i>
+                                    <i class="fa fa-minu"></i>
                                 </button>
                             </div>
                         </div>
@@ -195,7 +189,7 @@
                                 @forelse($latest_pro as $pro)
                                     <li class="item">
                                         <div class="product-img">
-                                            <img src="/../dist/img/default-150x150.png" alt="Product Image" class="img-size-50">
+                                            <img src="{{asset('img/admin/recent-program.png')}}" alt="" class="img-size-50">
                                         </div>
                                         <div class="product-info">
                                             <a href="javascript:void(0)" class="product-title">{{ $pro->course_name }}

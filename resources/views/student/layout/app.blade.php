@@ -13,7 +13,6 @@
 {{--    <link rel="icon" href="../../../img/core-img/favicon.ico">--}}
 
     <link rel="stylesheet" href="{{ asset('../../../../css/app.css') }}">
-
     <link rel="stylesheet" href="{{asset('../../../../css/student/adminlte.min.css')}}">
     <link rel="stylesheet" href="{{asset("../../../../css/student/style.css")}}">
 
