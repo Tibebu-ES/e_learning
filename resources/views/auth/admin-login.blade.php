@@ -5,8 +5,9 @@
         <div class="container">
             <div class="signin-content">
                 <div class="signin-image">
-                    <figure><a href="{{ url('/') }}"><img src="images/admin-logo.png" alt="sing up image"></a></figure>
+                    <figure><a href="{{ url('/') }}"><img src="img/home/admin-logo.png" alt="sing up image"></a></figure>
                 </div>
+
 
                 <div class="signin-form">
                     <h2 class="form-title">Admin - Sign in</h2>

@@ -6,7 +6,7 @@
         <div class="container">
             <div class="signin-content">
                 <div class="signin-image">
-                    <figure><a href="{{ url('/') }}"><img src="images/signin-image.jpg" alt="sing up image"></a></figure>
+                    <figure><a href="{{ url('/') }}"><img src="img/home/signin-image.jpg" alt="sing up image"></a></figure>
                     <a href="{{ url('/register') }}" class="signup-image-link">Create an account</a>
                 </div>
 
