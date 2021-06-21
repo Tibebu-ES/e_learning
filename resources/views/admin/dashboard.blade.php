@@ -5,9 +5,8 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item has-treeview">
                 <a href="{{ route('admin.dashboard') }}" class="nav-link active">
-                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <i class="nav-icon fa fa-dashboard"></i>
                     <p>Dashboard</p>
-                    <span class="fa fa-dashboard"></span>
                 </a>
             </li>
             <li class="nav-item">

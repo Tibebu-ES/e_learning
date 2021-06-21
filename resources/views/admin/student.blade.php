@@ -5,32 +5,31 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item has-treeview">
                 <a href="{{ route('admin.dashboard') }}" class="nav-link">
-                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <i class="nav-icon fa fa-dashboard"></i>
                     <p>Dashboard</p>
-                    <span class="fa fa-dashboard"></span>
                 </a>
             </li>
             <li class="nav-item">
                 <a href="{{ route('admin.student') }}" class="nav-link active">
-                    <i class="nav-icon fas fa-th"></i>
+                    <i class="nav-icon fa fa-user"></i>
                     <p>Students</p>
                 </a>
             </li>
             <li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-copy"></i>
-                    <p>Courses<i class="fas fa-angle-left right"></i></p>
+                    <i class="nav-icon fa fa-copy"></i>
+                    <p>Courses<i class="fa fa-angle-left right"></i></p>
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="{{ route('admin.standard') }}" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
+                            <i class="fa fa-circle nav-icon"></i>
                             <p>Standard</p>
                         </a>
                     </li>
                     <li class="nat-item">
                         <a href="{{ route('admin.eps') }}" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
+                            <i class="fa fa-circle nav-icon"></i>
                             <p>EPS</p>
                         </a>
                     </li>
@@ -38,25 +37,25 @@
             </li>
             <li class="nav-item has-treeview">
                 <a href="{{ route('admin.teachers') }}" class="nav-link">
-                    <i class="nav-icon fas fa-pen"></i>
+                    <i class="nav-icon fa fa-pencil"></i>
                     <p>Teachers</p>
                 </a>
             </li>
             <li class="nav-item has-treeview">
-                <a href="{{ route('admin.document')}}" class="nav-link">
-                    <i class="nav-icon fas fa-chart-pie"></i>
+                <a href="{{ route('admin.document') }}" class="nav-link">
+                    <i class="nav-icon fa fa-files-o"></i>
                     <p>Documents</p>
                 </a>
             </li>
             <li class="nav-item has-treeview">
                 <a href="{{ route('admin.discussion')}}" class="nav-link">
-                    <i class="nav-icon fas fa-edit"></i>
+                    <i class="nav-icon fa fa-edit"></i>
                     <p>Forums</p>
                 </a>
             </li>
             <li class="nav-item has-treeview">
-                <a href="{{ route('admin.classroom') }}" class="nav-link">
-                    <i class="nav-icon fas fa-microphone"></i>
+                <a href="{{ route('admin.classroom')}}" class="nav-link">
+                    <i class="nav-icon fa fa-microphone"></i>
                     <p>Class Room</p>
                 </a>
             </li>
