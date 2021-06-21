@@ -90,24 +90,26 @@
                                                 <p class="text-muted text-sm"><b>Assigned: </b>
                                                     <span class="badge badge-primary">{{ $teach->assigned_course }}</span></p>
                                                 <ul class="ml-4 mb-0 fa-ul text-muted">
-                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Address: {{ $teach->address }}</li>
-                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Phone #: {{ $teach->mobile }}</li>
+                                                    <li class="small"><span class="fa-li"><i class="fa fa-lg fa-building"></i></span> Address: {{ $teach->address }}</li>
+                                                    <li class="small"><span class="fa-li"><i class="fa fa-lg fa-phone"></i></span> Phone #: {{ $teach->mobile }}</li>
                                                 </ul>
                                             </div>
                                             <div class="col-5 text-center">
-                                                <img src="../../dist/img/AdminLTELogo.png" alt="user-avatar" class="img-circle img-fluid">
+                                                <img src="{{ asset('img/admin/admin-icon.png') }}" alt="user-avatar" class="img-circle img-fluid">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card-footer">
                                         <div class="text-right">
                                             <a href="#" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#teachDetails{{$loop->index}}">
-                                                <i class="fas fa-user"></i> New Task
+                                                <i class="fa fa-user"></i> New Task
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+
                             <div class="modal fade" id="teachDetails{{$loop->index}}" tabindex="-1" role="dialog" aria-labelledby="teachDetailsTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
