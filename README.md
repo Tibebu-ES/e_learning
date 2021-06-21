@@ -5,6 +5,7 @@
 
 ## E-Learning Portal
 
+"Online course training center!"
 E-learning, also referred to as online learning or electronic learning, is the acquisition of knowledge which takes place through electronic technologies and media. In simple language, e-learning is defined as “learning that is enabled electronically”. Typically, e-learning is conducted on the Internet, where students can access their learning materials online at any place and time. E-Learning most often takes place in the form of online courses, online degrees, or online programs.
 ### Features
 
