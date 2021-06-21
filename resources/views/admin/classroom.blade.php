@@ -81,7 +81,7 @@
 
                         <div class="card-body">
 
-                            <livewire:class-room-data/>
+                            @livewire('class-room-data')
 
                         </div>
                         <!-- /.card-body -->

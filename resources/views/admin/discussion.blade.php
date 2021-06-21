@@ -79,11 +79,7 @@
                             <button type="button" class="btn btn-tool btn-sm" data-card-widget="collapse"
                                     data-toggle="tooltip"
                                     title="Collapse">
-                                <i class="fas fa-minus"></i></button>
-                            <button type="button" class="btn btn-tool btn-sm" data-card-widget="remove"
-                                    data-toggle="tooltip"
-                                    title="Remove">
-                                <i class="fas fa-times"></i></button>
+                                <i class="fa fa-minus"></i></button>
                         </div>
                         <!-- /. tools -->
                     </div>
@@ -92,7 +88,7 @@
                         <form action="{{ route('admin.create.topic') }}" method="post">
                             {{ @csrf_field() }}
                             <div class="mb-3">
-                <textarea class="textarea" name="title" placeholder="Place some text here"
+                <textarea class="summernote" name="title" placeholder="Place some text here"
                           style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
                             </div>
                             @error('title')

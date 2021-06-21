@@ -21,7 +21,7 @@
                                     @if($tp['forum_id'] == $d['id'])
                                         <div class="post clearfix">
                                             <div class="user-block">
-                                                <img class="img-circle img-bordered-sm" src="../images/stud-icon.png" alt="User Image">
+                                                <img class="img-circle img-bordered-sm" src="{{asset('img/student/stud-icon.png')}}" alt="User Image">
                                                 <span class="username">
                                                 <a href="#">{{$tp->user_name}}</a></span>
                                                 <span class="description">{{$tp->created_at->diffForHumans()}}</span>

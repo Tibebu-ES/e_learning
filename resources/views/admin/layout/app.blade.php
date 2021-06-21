@@ -13,14 +13,9 @@
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{{ asset('fonts/font-awesome.min.css') }}">
-    <!-- overlayScrollbars -->
-    <link rel="stylesheet" href="../../plugins1/overlayScrollbars/css/OverlayScrollbars.min.css">
-
-    <link rel="stylesheet" href="../../plugins1/summernote/summernote-bs4.min.css">
-
-    <link rel="stylesheet" href="../../plugins1/datatables-bs4/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" href="../../plugins1/datatables-responsive/css/responsive.bootstrap4.min.css">
-
+    <link rel="stylesheet" href="{{ asset('js/summernote/summernote-bs4.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('js/datatables-bs4/css/dataTables.bootstrap4.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('js/datatables-responsive/css/responsive.bootstrap4.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset("css/elearning.css") }}">
 
     @livewireStyles
@@ -169,26 +164,18 @@
 <script src="{{ asset('js/jquery/jquery.js') }}"></script>
 <script src="{{ asset('js/bootstrap/bootstrap.bundle.js') }}"></script>
 <script src="{{ asset('js/admin/adminlte.js') }}"></script>
-<script src="{{ asset('js/summernote/summernote.min.js') }}"></script>
+<script src="{{ asset('js/summernote/summernote.js') }}"></script>
 <script src="{{ asset('js/datatables/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('js/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+<script src="{{ asset('js/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
+<script src="{{ asset('js/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
 
-{{--<script src="../plugins1/bootstrap/js/bootstrap.bundle.min.js"></script>--}}
-{{--<!-- overlayScrollbars -->--}}
-{{--<script src="../plugins1/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>--}}
-<!-- AdminLTE App -->
-{{--<script src="../../dist/js/adminlte.js"></script>--}}
-{{--<script src="../../dist/js/demo.js"></script>--}}
-{{--<script src="../../plugins1/summernote/summernote-bs4.min.js"></script>--}}
-{{--<script src="../../plugins1/datatables/jquery.dataTables.min.js"></script>--}}
-{{--<script src="../../plugins1/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>--}}
-{{--<script src="../../plugins1/datatables-responsive/js/dataTables.responsive.min.js"></script>--}}
-{{--<script src="../../plugins1/datatables-responsive/js/responsive.bootstrap4.min.js"></script>--}}
 
 
 <script>
     $(function () {
         // Summernote there is a clash between forum and alpine.js
-        $('.textarea').summernote()
+        $('.summernote').summernote();
 
         $("#example1").DataTable({
             "responsive": true,
