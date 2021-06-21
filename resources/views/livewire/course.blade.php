@@ -1,4 +1,4 @@
-<div>
+<div xmlns:wire="http://www.w3.org/1999/xhtml">
 
     <div class="card">
 
@@ -79,12 +79,6 @@
                                 </div>
 
                             </div>
-
-
-{{--                            <div class="footer text-center">--}}
-{{--                                <a href="#" class="Cbtn Cbtn-primary">START</a>--}}
-{{--                                <a href="#" class="Cbtn Cbtn-danger">END</a>--}}
-{{--                            </div>--}}
                         </div>
                     </div>
                 </div>

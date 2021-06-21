@@ -1,4 +1,4 @@
-<div>
+<div xmlns:wire="http://www.w3.org/1999/xhtml">
 
 
     <div class="card">
@@ -7,10 +7,7 @@
 
             <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
-                        class="fas fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-tool" data-card-widget="remove"><i
-                        class="fas fa-times"></i>
+                        class="fa fa-minus"></i>
                 </button>
             </div>
         </div>
@@ -19,13 +16,12 @@
             <ul class="users-list clearfix">
                 @forelse($category as $c)
                     <li wire:click='getEpsCourse("{{$c["category"]}}")'>
-                        <img src="../dist/img/icons-hotel.png" alt="User Image">
+                        <img src="{{ asset('img/admin/recent-program.png') }}" alt="User Image">
                         <a class="users-list-name" href="#"><strong>{{$c['category']}}</strong></a>
                         <span class="users-list-date">EPS</span>
                     </li>
                 @empty
                     <div class="col-lg-12 col-md-12 text-center">
-                        <img src="../../../images/nothing.png" alt="">
                         <p>No programs found</p>
                     </div>
 
@@ -75,17 +71,11 @@
 
                                     </div>
 
-
-{{--                                    <div class="footer text-center">--}}
-{{--                                        <a href="#" class="Cbtn Cbtn-primary">START</a>--}}
-{{--                                        <a href="#" class="Cbtn Cbtn-danger">END</a>--}}
-{{--                                    </div>--}}
                                 </div>
                             </div>
                         </div>
                     @empty
                         <div class="col-lg-12 col-md-12  text-center">
-                            <img src="../../../images/nothing-sm.png" alt="">
                             <p>No Course Found</p>
                         </div>
                     @endforelse
